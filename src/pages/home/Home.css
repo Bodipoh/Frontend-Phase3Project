@@ -1,0 +1,43 @@
+.header {
+  text-align: center;
+  font-style: italic;
+  font-size:xx-large;
+  
+}
+
+.header {
+  margin: 2rem 0 5rem 0;
+}
+
+.homecontainer{
+  background-image: url("/public/data.webp");
+}
+
+.input {
+  border: 1px solid black;
+  background-color: whitesmoke;
+  outline: 0;
+  width: 60%;
+  padding: 1rem;
+  border-radius: 25px;
+  display: block;
+  margin: 2rem auto 5rem auto;
+  font-size: 1rem;
+  background-image: url("/public/data.webp");
+}
+
+.btn {
+  border: 0;
+  outline: 0;
+  width: 20%;
+  padding: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: rgb(88, 25, 25);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: block;
+  margin: 2rem auto;
+}

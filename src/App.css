@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    background: #000;
+    color: #fff;
+    height: 100vh;
+    width: 300px;transition: all 0.5s;
+
+}
+.top-section{
+    display:flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background: lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+
+}
+
+.form {
+    border: solid black;
+    margin-top: 5%;
+    width:50%;
+    height: 80%;
+    background: #fff;
+    padding-left: 4%;
+    padding-right: 5%;
+    margin-left: 20%;
+
+}
+
+.form h2{
+    color: #000;
+    margin-top: 5%;
+    margin-left: 25%;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+  input[type=number]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+  input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+  #btn{
+    background-color: #69a5d0;
+    padding:1% 3%;
+    margin-bottom: 2%;
+    border: none;
+  }
+  .studentbackground{
+    border: solid white;
+    width: 95%;
+    height: 95%;
+
+    background-image: url("https://images.unsplash.com/photo-1503676593575-d732ab11be71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1477&q=80");
+  }
+  .studentbackground2{
+    border: solid white;
+    width: 95%;
+    height: 95%;
+    background-image: url("https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9va3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  }
+
+  /* styling dashboard table */
+  td {
+    text-align: center;
+    font-size: 30px;
+  }
+  table {
+    border: 1px solid;
+  }
+  table{
+    margin-left: 15%;
+  }
+  th{
+    font-size: 40px;
+    background-color: #04AA6D;
+    color: white;
+    }
+    tr:nth-child(even) {background-color: #f2f2f2a3;}
+  h1{
+    font-size: 50px;
+    padding-left: 35%;
+  }
+  #btn2{
+    background-color: #0acde6;
+    padding:5% 5%;
+    border: none;
+    font-size: 30px;
+  }
+  .ml-10{
+    border: solid black;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVuY2lsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  }
+  #fa {
+    size: 48px;
+    color: red;
+  }
+  #fa2 {
+    size: 48px;
+    color: limegreen;
+  }
+
